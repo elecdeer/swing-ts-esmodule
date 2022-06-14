@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "typescript de esmodule wo tukau suburi",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "start": "vite-node src/index.ts",
     "build": "echo \\\"Error: no build specified\\\" && exit 1",
