@@ -1,0 +1,24 @@
+{
+  "name": "swing-ts-esmodue",
+  "version": "1.0.0",
+  "description": "typescript de esmodule wo tukau suburi",
+  "main": "index.ts",
+  "scripts": {
+    "start": "vite-node src/index.ts",
+    "build": "echo \\\"Error: no build specified\\\" && exit 1",
+    "check:types": "tsc --noEmit",
+    "check:test": "vitest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "typescript": "^4.7.3",
+    "vite-node": "^0.14.2",
+    "vitest": "^0.14.2"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "log4js": "^6.5.2"
+  }
+}
